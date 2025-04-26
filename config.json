@@ -1,0 +1,8 @@
+{
+    "model_path": "models/yolov8n.onnx",
+    "camera_url": "rtsp://camera_ip:554/stream",
+    "line_token": "",
+    "telegram_token": "",
+    "telegram_chat_id": "",
+    "whitelist_path": "data/whitelist.json"
+}

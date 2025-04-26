@@ -1,0 +1,48 @@
+# Rust build artifacts
+/target/
+**/target/
+Cargo.lock
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Machine learning models and datasets
+/models/
+/data/
+*.onnx
+*.weights
+*.pth
+
+# Environment files
+.env
+.env.*
+
+# Build and binary files
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+*.obj
+*.bin
+
+# Log files
+*.log
+logs/
+
+# Test and coverage files
+coverage/
+*.profraw
+
+# Python files (in case of model training scripts)
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+venv/
+.pytest_cache/
